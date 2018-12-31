@@ -1,1 +1,3 @@
-# Resource-C-IUT-de-l-Indre-
+# Resource C (IUT de l'Indre)
+
+- Explication des pointeur

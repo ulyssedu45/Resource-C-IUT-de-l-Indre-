@@ -27,7 +27,7 @@ int main()
     int monTableau[TAILLE_DE_MON_TABLEAU];
 
     // le & dit qu'on envoie l'addresse de montableau
-    remplireMonTableau(monTableau);
+    remplireMonTableau(&monTableau);
 
     //affichage des valeur mise dans monTableau
     for(int i = 0; i < TAILLE_DE_MON_TABLEAU; i++){
@@ -60,7 +60,7 @@ void remplireMonTableau(int *pointeurSurMonTableau){
     //la taille du tableau est de 10 element donc les index vont de 0 à 9 -> (0 -> nombre d'element-1)
     for(int i = 0; i < TAILLE_DE_MON_TABLEAU; i++){
 
-      pointeurSurMonTableau[i] = 1;// on met des nombre aléatoire
+      pointeurSurMonTableau[i] = rand();// on met des nombre aléatoire
 
     }
 
